@@ -1,0 +1,30 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Database backups and local data
+*.dump
+*.sql
+*.bak
+
+# Logs and generated files
+*.log
+openapi-check.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backup files
+*.backup

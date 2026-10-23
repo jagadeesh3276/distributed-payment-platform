@@ -1,0 +1,12 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+SQLAlchemy>=2,<3
+psycopg[binary]>=3.2,<4
+pydantic-settings>=2.5,<3
+alembic>=1.13,<2
+redis>=5,<7
+confluent-kafka>=2.5,<3
+prometheus-fastapi-instrumentator>=7,<8
+pytest>=8,<10
+httpx>=0.27,<1
+locust>=2.31,<3
